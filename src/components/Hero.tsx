@@ -10,12 +10,12 @@ const Hero = () => {
         <div className="absolute bottom-20 right-10 w-96 h-96 bg-primary/5 rounded-full blur-3xl animate-pulse delay-700" />
       </div>
       
-      <div className="container mx-auto text-center relative z-10 animate-fade-in">
-        <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
+      <div className="container mx-auto text-center relative z-10 animate-fade-in max-w-5xl">
+        <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold mb-4 md:mb-6 leading-tight px-2">
           Transformez vos idées en{" "}
           <span className="text-primary">projets concrets</span> avec Sadelins
         </h1>
-        <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto">
+        <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-muted-foreground mb-6 md:mb-8 max-w-3xl mx-auto px-4">
           Innovation, accompagnement et résultats. Votre partenaire digital pour réussir.
         </p>
         <Button 

@@ -64,9 +64,9 @@ const Pricing = () => {
           {plans.map((plan, index) => (
             <Card
               key={index}
-              className={`p-8 relative ${
+              className={`p-4 sm:p-6 md:p-8 relative ${
                 plan.popular
-                  ? "border-primary shadow-elegant scale-105 bg-card"
+                  ? "border-primary shadow-elegant md:scale-105 bg-card"
                   : "border-border bg-card"
               } transition-all hover:shadow-glow`}
             >

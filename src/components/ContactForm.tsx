@@ -45,7 +45,7 @@ const ContactForm = () => {
           </p>
         </div>
 
-        <form onSubmit={handleSubmit} className="space-y-6 bg-card p-8 rounded-2xl border border-border shadow-elegant">
+        <form onSubmit={handleSubmit} className="space-y-6 bg-card p-4 sm:p-6 md:p-8 rounded-2xl border border-border shadow-elegant">
           <div>
             <label htmlFor="email" className="block text-sm font-medium mb-2">
               Email <span className="text-primary">*</span>
@@ -93,10 +93,10 @@ const ContactForm = () => {
           <Button 
             type="submit"
             size="lg"
-            className="w-full bg-primary text-primary-foreground hover:bg-primary/90 font-semibold text-lg py-6 rounded-full shadow-glow transition-all hover:scale-105"
+            className="w-full bg-primary text-primary-foreground hover:bg-primary/90 font-semibold text-base sm:text-lg py-5 sm:py-6 rounded-full shadow-glow transition-all hover:scale-105"
           >
-            <MessageCircle className="mr-2 h-5 w-5" />
-            Discuter de mon projet sur WhatsApp
+            <MessageCircle className="mr-2 h-4 w-4 sm:h-5 sm:w-5" />
+            <span className="text-sm sm:text-base md:text-lg">Discuter de mon projet sur WhatsApp</span>
           </Button>
 
           <div className="bg-primary/10 rounded-lg p-4 border border-primary/20">
